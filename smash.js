@@ -24,7 +24,7 @@ function smash(){
     var answer2 = prompt("HOW MANY TIMES WILL YOU STRIKE?!?!")
     
     if (answer2==" 45"){
-        console.log("PLAYER STRIKES" + frstQ[0] + "TIMES!!")
+        console.log("PLAYER STRIKES " + frstQ[0] + " TIMES!!")
     }
     else if (answer2== " 70"){
         console.log("PLAYER STRIKES " + frstQ[1] + " TIMES!!")
@@ -33,9 +33,21 @@ function smash(){
         console.log("PLAYER STRIKES " + frstQ[2] + " TIMES!!" )
     }
     else if (answer2== " 56"){
-        console.log("PLAYER STRIKES" + frstQ[3] + " TIMES!!")
+        console.log("PLAYER STRIKES " + frstQ[3] + " TIMES!!")
     }
     else{console.log("PLAYER MISSED!!")
     }
 };
 smash()
+
+
+
+//function smashRandom(){
+  //  var randSmash = rand(firstQuestion.length);
+ //   var randSmash2 = rand(secondQuestion.length);
+   // var randSmash3 = rand(mashArray.length);
+  //  console.log("You fought "+ secondQuestion[randSmash2] +" in "+ mashArray[randSmash3]+ " "+ firstQuestion[randSmash]+" times.");
+//};
+
+//smashRandom();
+
